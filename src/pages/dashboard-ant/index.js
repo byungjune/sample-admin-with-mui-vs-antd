@@ -142,7 +142,7 @@ const AntDashboard = () => {
       </Col>
 
       {/* row 4 */}
-      <Col xs={24} md={14} lg={16}>
+      <Col xs={24}>
         <Row justify="space-between" align="middle">
           <Col>
             <Title level={5}>Sales Report</Title>
@@ -170,29 +170,6 @@ const AntDashboard = () => {
             </Title>
           </div>
           <SalesColumnChart />
-        </MainCardAnt>
-      </Col>
-      <Col xs={24} md={10} lg={8}>
-        <Row justify="space-between" align="middle">
-          <Col>
-            <Title level={5}>Transaction History</Title>
-          </Col>
-        </Row>
-        <MainCardAnt sx={{ marginTop: '14px' }}>
-          <List>
-            <List.Item>
-              <Text strong>Company Finance Growth</Text>
-              <span style={{ fontSize: '16px', fontWeight: 'bold' }}>+45.14%</span>
-            </List.Item>
-            <List.Item>
-              <Text strong>Company Expenses Ratio</Text>
-              <span style={{ fontSize: '16px', fontWeight: 'bold' }}>0.58%</span>
-            </List.Item>
-            <List.Item>
-              <Text strong>Business Risk Cases</Text>
-              <span style={{ fontSize: '16px', fontWeight: 'bold' }}>Low</span>
-            </List.Item>
-          </List>
         </MainCardAnt>
       </Col>
     </Row>
