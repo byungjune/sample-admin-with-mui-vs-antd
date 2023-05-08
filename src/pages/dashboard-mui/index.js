@@ -1,21 +1,7 @@
 import { useState } from 'react';
 
 // material-ui
-import {
-  Avatar,
-  Box,
-  Button,
-  Grid,
-  List,
-  ListItemAvatar,
-  ListItemButton,
-  ListItemSecondaryAction,
-  ListItemText,
-  MenuItem,
-  Stack,
-  TextField,
-  Typography
-} from '@mui/material';
+import { Box, Button, Grid, List, ListItemButton, ListItemText, MenuItem, Stack, TextField, Typography } from '@mui/material';
 
 // project import
 import OrdersTable from './OrdersTable';
@@ -25,26 +11,6 @@ import ReportAreaChart from './ReportAreaChart';
 import SalesColumnChart from './SalesColumnChart';
 import MainCard from 'components/MainCard';
 import AnalyticEcommerce from 'components/cards/statistics/AnalyticEcommerce';
-
-// assets
-import { GiftOutlined, MessageOutlined, SettingOutlined } from '@ant-design/icons';
-
-// avatar style
-const avatarSX = {
-  width: 36,
-  height: 36,
-  fontSize: '1rem'
-};
-
-// action style
-const actionSX = {
-  mt: 0.75,
-  ml: 1,
-  top: 'auto',
-  right: 'auto',
-  alignSelf: 'flex-start',
-  transform: 'none'
-};
 
 // sales report status
 const status = [
